@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Crypto rate</h2>
+    <form action="#" id="cryptoForm">
+      <label for="cryptoCurrencies">Crypto-currencies</label>
+      <select id="cryptoCurrencies" name="cryptoCurrencies" form="cryptoForm">
+        <option value="btc" selected="selected">BTC</option>
+        <option value="xrp">XRP</option>
+        <option value="eos">EOS</option>
+        <option value="ltc">LTC</option>
+        <option value="eth">ETH</option>
+      </select>
+      <br />
+      <label for="amount">Amount:</label>
+      <input type="text" id="amount" name="amountText" />
+      <!-- <input type="submit" name="amount" id="sub" /> -->
+      <br />
+      <label for="currency">Currency</label>
+      <select id="currency" name="crypto" form="crypto">
+        <option value="usd" selected="selected">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+      </select>
+      <br />
+      <label for="result">result</label>
+      <input type="number" id="result" name="result" />
+      <br />
+      <button type="submit">Convert</button>
+    </form>
+    <script src="/src/scripts/index.js"></script>
+  </body>
+</html>
