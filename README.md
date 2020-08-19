@@ -1,3 +1,2 @@
-#crypto calculator
+Widget to calculate today's prices of mayor cryptocurrencies in USD and EUR.
 
-#Calculator with live prices of mayor cryptocurrencies. 
