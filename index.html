@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles//main.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="background-section">
+      <h1>Cryptocurrencies Prices and Calculator</h1>
+
+      <div class="coins-div">
+        <div class="prices-div"><p>Bitcoin: <span>00</span></p><img src="/images/bitcoin-logo.png"/></div>
+        <div class="prices-div"><p>Ripple: <span>00</span></p><img src="/images//ripple-xrp-logo-E97D62205B-seeklogo.com.png"/></div>
+        <div class="prices-div"><p>EOS: <span>00</span></p><img src="/images/eos-logo.png"/></div>
+        <div class="prices-div"><p>Litecoin: <span>00</span></p><img src="/images/Coin-LTC-Vanilla-512.png"/></div>
+        <div class="prices-div"><p>Ethereum: <span>00</span></p><img src="/images/220px-Ethereum-icon-purple.svg.png"/></div>
+      </div>
+    <div class="main">
+    <h2>Crypto Calculator</h2>
+    <form action="#" id="cryptoForm">
+      <label for="cryptoCurrencies">Crypto-Currency</label>
+      <select id="cryptoCurrencies" name="cryptoCurrencies" form="cryptoForm">
+        <option value="btc" selected="selected">BTC</option>
+        <option value="xrp">XRP</option>
+        <option value="eos">EOS</option>
+        <option value="ltc">LTC</option>
+        <option value="eth">ETH</option>
+      </select>
+      <br/>
+      <label for="amount">Amount:</label>
+      <input type="text" id="amount" name="amountText" />
+      <!-- <input type="submit" name="amount" id="sub" /> -->
+      <br />
+      <label for="currency">Currency</label>
+      <select id="currency" name="crypto" form="crypto">
+        <option value="usd">USD</option>
+        <option value="eur">EUR</option>
+      </select>
+      <br />
+      <label for="result">Result</label>
+      <input type="number" id="result" name="result" disabled />
+      <br />
+      <button type="submit">Convert</button>
+    </form>
+</div>
+</div>
+<script src="scripts/index.js"></script>
+</body>
+</html>
